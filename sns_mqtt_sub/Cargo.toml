@@ -1,0 +1,17 @@
+[package]
+name = "sns_mqtt_sub"
+version = "0.1.0"
+edition = "2021"
+authors = ["Miguel <miguel.yurivilca@utec.edu.pe>"]
+
+[dependencies]
+bson = "2.11.0"
+dotenvy = "0.15.7"
+dotenvy_macro = "0.15.7"
+env_logger = "0.11.3"
+log = "0.4.21"
+paho-mqtt = "0.12"
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.117"
+tokio = { version = "1", features = ["full"] }

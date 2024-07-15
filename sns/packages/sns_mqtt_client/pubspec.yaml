@@ -1,0 +1,16 @@
+name: sns_mqtt_client
+description: A Very Good Project created by Very Good CLI.
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  mqtt5_client: ^4.3.0
+  rxdart: ^0.28.0
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.7
+  very_good_analysis: ^6.0.0
+

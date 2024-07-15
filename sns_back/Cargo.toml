@@ -1,0 +1,16 @@
+[package]
+name = "sns_back"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+bson = { version = "2.11.0", features = ["chrono-0_4"] }
+chrono = "0.4.38"
+dotenvy = "0.15.7"
+dotenvy_macro = "0.15.7"
+env_logger = "0.11.3"
+futures = "0.3.30"
+log = "0.4.21"
+mongodb = { version = "2.8.2" }
+serde = { version = "1.0", features = ["derive"] }
